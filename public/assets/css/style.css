@@ -210,6 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
+  border: none;
 }
 
 .appointment-btn:hover {
@@ -1751,4 +1752,14 @@ section {
 
 .main-header {
   height: 138px;
+}
+
+.apointer{
+  cursor: pointer;
+  color: rgb(65, 65, 255);
+}
+
+.apointer:hover{
+  cursor: pointer;
+  color: #fd7e14;
 }

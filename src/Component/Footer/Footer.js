@@ -12,11 +12,11 @@ function Footer(props) {
                         </div>
                     </div>
                     <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                        <a href="#" className="twitter"><i className="bx bxl-twitter" /></a>
-                        <a href="#" className="facebook"><i className="bx bxl-facebook" /></a>
-                        <a href="#" className="instagram"><i className="bx bxl-instagram" /></a>
-                        <a href="#" className="google-plus"><i className="bx bxl-skype" /></a>
-                        <a href="#" className="linkedin"><i className="bx bxl-linkedin" /></a>
+                        <a href="https://twitter.com/mr_nirav_9603" target="new" className="twitter"><i className="bx bxl-twitter" /></a>
+                        <a href="https://www.facebook.com/nirav.magatarapara" target="new" className="facebook"><i className="bx bxl-facebook" /></a>
+                        <a href="https://www.instagram.com/_.nirav._08" target="new" className="instagram"><i className="bx bxl-instagram" /></a>
+                        <a href="#" target="new" className="google-plus"><i className="bx bxl-skype" /></a>
+                        <a href="https://www.linkedin.com/nirav-magatarapara-3205521b7" target="new" className="linkedin"><i className="bx bxl-linkedin" /></a>
                     </div>
                 </div>
             </footer>
