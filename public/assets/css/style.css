@@ -1763,3 +1763,24 @@ section {
   cursor: pointer;
   color: #fd7e14;
 }
+
+.ap-btn{
+  color: #2c4964;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: none;
+  font-size: 15px;
+}
+
+.card-title{
+  color: #FF6337;
+}
+
+.error{
+  color: #ff3737;
+}

@@ -30,25 +30,25 @@ function Header(props) {
                         <nav id="navbar" className="navbar order-last order-lg-0">
                             <ul>
                                 <li>
-                                    <NavLink className="nav-link scrollto active" to={"/"}>Home</NavLink>
+                                    <NavLink className="nav-link scrollto active" to={"/"} exact>Home</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="nav-link scrollto" to={"/departments"}>Departments</NavLink>
+                                    <NavLink className="nav-link scrollto" to={"/departments"} exact>Departments</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="nav-link scrollto" to={"/doctors"}>Doctors</NavLink>
+                                    <NavLink className="nav-link scrollto" to={"/doctors"} exact>Doctors</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="nav-link scrollto " to={"/about"}>About</NavLink>
+                                    <NavLink className="nav-link scrollto " to={"/about"} exact>About</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="nav-link scrollto" to={"/contact"}>Contact</NavLink>
+                                    <NavLink className="nav-link scrollto" to={"/contact"} exact>Contact</NavLink>
                                 </li>
                             </ul>
                             <i className="bi bi-list mobile-nav-toggle" />
                         </nav>
                         <NavLink to={"/appointment"} className="appointment-btn scrollto">
-                            <span className="d-none d-md-inline">Make an Appointment</span>
+                            <span className="d-none d-md-inline">Appointment</span>
                         </NavLink>
                         <NavLink to={"/login"} className="appointment-btn scrollto">
                             <span className="d-none d-md-inline">Login/ Signup</span>

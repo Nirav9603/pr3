@@ -9,6 +9,7 @@ import Doctors from "./Container/Doctors/Doctors";
 import Contact from "./Container/Contact/Contact";
 import Appointment from "./Container/Appointment/Appointment";
 import Login from "./Container/Login/Login";
+import AppoinmentList from "./Container/AppoinmentList/AppoinmentList";
 
 function App() {
   return(
@@ -22,6 +23,7 @@ function App() {
           <Route path={"/contact"} exact component={Contact} />
           <Route path={"/appointment"} exact component={Appointment} />
           <Route path={"/login"} exact component={Login} />
+          <Route path={"/appointment-list"} exact component={AppoinmentList} />
         </Switch>
       <Footer />
     </div>
